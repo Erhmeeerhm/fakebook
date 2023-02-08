@@ -1,0 +1,131 @@
+@import url('https://fonts.googleapis.com/css2?family=Heebo:wght@300&display=swap'); 
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Noto Sans', sans-serif;
+}
+
+.left{
+    float: left;
+}
+
+.right{
+    float: right;
+}
+
+.clear{
+    clear: none;
+}
+
+body {
+    background: #eee;
+}
+
+.header {
+    width: 100%;
+    position: fixed;
+    z-index: 99;
+}
+
+.a1 {
+    width: 100%;
+    height: 90px;
+    background-color: #1877f2;
+}
+
+.a1 li{
+    display: inline-block;
+    list-style: none;
+    margin-top: 35px;
+    margin-left: 50px;
+}
+
+.logo{
+    display: flex;
+}
+
+.logo img{
+    width: 100px;
+    margin-left: 30px;
+    display: inline-block;
+}
+
+.logo h1{
+    font-size: 25px;
+    display: inline-block;
+    margin-top: 30px;
+    color: #eee;
+}
+
+.fogo li{
+    margin-right: 50px;
+}
+.fogo li a{
+    list-style: none;
+    text-decoration: none;
+    color: #eee;
+}
+
+.fogo li a:hover{
+    color: rgb(190, 190, 187);
+}
+
+.fogo .link{
+    font-size: 20px;
+    text-transform: uppercase;
+    cursor: pointer;
+    transition: 0.2s;
+}
+
+.posts img {
+    margin-top: 20px;
+    display: block;
+    width: 500px;
+    height: 300px;
+    object-fit: cover;
+    border-radius: 10px;
+  }
+  
+  .posts {
+    margin: 30px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .post {
+    margin: 30px;
+  }
+  
+  .post div {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .post .delete {
+    padding: 1rem 2rem;
+    border: none;
+    color: white;
+    background-color: #6620be;
+    border-radius: 5px;
+    font-weight: bolder;
+    cursor: pointer;
+  }
+  
+  .post .comment,
+  .posts .post .coms > input {
+    display: block;
+    width: 73%;
+    padding: 0.7rem;
+    margin-top: 15px;
+    border: none;
+    outline: none;
+    border-radius: 10px;
+  }
+  
+  .posts .post .coms {
+    display: block;
+  }

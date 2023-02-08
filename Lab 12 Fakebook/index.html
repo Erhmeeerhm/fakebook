@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="register.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+Arabic:wght@500&family=Russo+One&display=swap"
+        rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css"/>
+    <title>Fakebook - Register Page</title>
+</head>
+
+<body>
+    <div class="container">
+        <div class="register">
+            <h1>Register</h1>
+
+            <div>
+                <input type="text" name="" id="username" placeholder="Username">
+                <label id="usererror"></label>
+            </div>
+
+            <div>
+                <input type="email" id="email" placeholder="Email">
+                <label id="emailerror"></label>
+            </div>
+
+            <div class="input-box">
+                <input type="password" id="password" placeholder="Password">
+                <label id="passworderror"></label>
+            </div>
+
+            <div class="input-box">
+                <input type="password" id="password2" placeholder="Repeat Password" onkeyup="validPass2()">
+                <label id="passworderror2"></label>
+            </div>
+
+            <div class="required">
+                <h2>Password hint.</h2>
+                <p>Uppercase and lowercase letter (A-z)</p>
+                <p>Numeric character (0-9)</p>
+                <p>Special character (!, %, @, #, etc.)</p>
+            </div>
+
+            <div class="input-box button">
+                <input type="button" id="submit" value="Sign up">
+            </div>
+        </div>
+    </div>
+
+
+    <script type="module" src="register.js"></script>
+</body>
+
+</html>

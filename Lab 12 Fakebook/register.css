@@ -1,0 +1,87 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #4070f4;
+}
+
+.register {
+  height: 450px;
+  width: 500px;
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 15px;
+  background-color: #eee;
+  border-radius: 10px;
+}
+
+.register h1 {
+  font-size: 30px;
+}
+
+.register input {
+  width: 300px;
+  height: 40px;
+  outline: none;
+  border: none;
+  border-radius: 8px;
+  padding: 0 15px;
+  border: 1px solid #d1d1d1;
+  display: block;
+}
+
+.input-box.button input {
+  border: none;
+  font-size: 20px;
+  color: #fff;
+  letter-spacing: 1px;
+  background: #4070F4;
+  cursor: pointer;
+}
+
+.input-box.button input.active:hover {
+  background: #265df2;
+  cursor: pointer;
+}
+
+#emailerror{
+  color: red;
+  font-size: 13px;
+}
+
+#usererror{
+  color: red;
+  font-size: 13px;
+}
+
+#passworderror{
+  color: red;
+  font-size: 13px;
+}
+
+#passworderror2{
+  color: red;
+  font-size: 13px;
+}
+
+.required{
+  color: #d5d5d5;
+}
+
+.required h2{
+  font-size: 17px;
+}
+
+.required p{
+  font-size: 14px;
+}
